@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registeration</title>
+        <style>
+            body{
+                background-color:rgb(242, 247, 246)e;
+            }
+            h1{
+                text-align: center;
+                margin-top: 5%;
+            }
+            .form-box{
+                width: 380px;
+                height: 350px;
+                position: relative;
+                margin: 6% auto;
+                background: rgb(219, 212, 212);
+                padding: 2px;
+                /* overflow: hidden; */
+            }
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(255, 245, 245);
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: turquoise;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color: rgb(10, 9, 9);
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login{
+    left: 50px;
+}
+
+#register{
+    left: 15%;
+    margin-top: -40%;
+}
+
+        </style>
+    </head>
+    <body>
+        <h1>Registeration Form</h1>
+        <div class = "form-box">
+            <form id="register" class="input-group">
+            <input type="text" class="input-field" placeholder="User Id" required>
+            <input type="email" class="input-field" placeholder="Email Id" required>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <input type="text" class="input-field" placeholder="Confirm Password" required>
+            <input type="checkbox" class="check-box"><span>I agree to terms & conditions</span>
+            <button type="submit" class="submit-btn">Register</button>
+        </form> 
+        </div>
+    </body>
+</html>

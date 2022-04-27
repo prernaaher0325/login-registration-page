@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            body{
+                background-color:rgb(242, 247, 246)e;
+            }
+            h1{
+                text-align: center;
+                margin-top: 5%;
+            }
+            .form-box{
+                width: 380px;
+                height: 350px;
+                position: relative;
+                margin: 6% auto;
+                background: rgb(219, 212, 212);
+                padding: 2px;
+                /* overflow: hidden; */
+            }
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(255, 245, 245);
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: turquoise;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color: rgb(10, 9, 9);
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login{
+    left: 50px;
+    margin-top: -30%;
+}
+
+#register{
+    left: 15%;
+    margin-top: -40%;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="login">
+            <h1>Login Form</h1>
+            <div class="form-box">
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>    
+           
+        </div>
+            
+        </div>
+    </body>
+</html>
